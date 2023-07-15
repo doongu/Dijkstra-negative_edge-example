@@ -1,7 +1,7 @@
 # Dijkstra-negative_edge-example
 Dijkstra도 음수 간선에서 동작하는 모습을 보며, Bellman Ford알고리즘과 비교해봅니다.
 
-<img src="./Dijkstra.PNG"  width="700" height="370">
+<img src="./Dijkstra-negative_edge-example.PNG"  width="700" height="370">
 
 
 위와 같은 그래프가 있습니다.
@@ -11,3 +11,7 @@ Dijkstra도 음수 간선에서 동작하는 모습을 보며, Bellman Ford알�
 
 
 하지만 "음수 간선"이라는 조건만으로 다익스트라가 작동하지 못할까요?
+
+아닙니다.
+
+위와 같은 그래프는 아래 코드를 동작시켜 보면 잘 작동함을 알 수 있어요
